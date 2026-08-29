@@ -1,0 +1,21 @@
+{
+  "name": "tenant-operations-document-qa",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/tenant_qa_server.ts",
+    "index": "tsx src/index_tenant_documents.ts",
+    "test": "tsx --test test/account_access.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "openai": "^4.77.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
